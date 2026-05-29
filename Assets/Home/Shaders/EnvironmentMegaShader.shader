@@ -129,6 +129,7 @@
                 #endif
 
                 float fogCoord : TEXCOORD8;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
                 UNITY_VERTEX_OUTPUT_STEREO
             };
             
